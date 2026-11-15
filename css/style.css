@@ -8,6 +8,7 @@ body {
     font-family: 'Open Sans', Arial, sans-serif;
     background-color: #F4F6F8;
     color: #1B2236;
+    height: 100000px;
 }
 
 .site-header {
@@ -117,4 +118,49 @@ body {
 .shop-text h1 {
     color: #fff;
 
+}
+
+.about-section {
+    background-color: #F4F6F8;
+
+
+}
+
+.about-container {
+    display: flex;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    text-align: justify;
+    width: 700px;
+
+}
+
+.about-text h2 {
+    color: #0B4F9C;
+
+}
+
+.about-text p {
+    color: #1B2236;
+}
+
+.about-section {
+    margin: 80px 0px 80px 0px;
+}
+
+.about-img {
+    height: 350px;
+    width: 520px;
+    margin-right: 90px;
+    border-radius: 8px;
 }
