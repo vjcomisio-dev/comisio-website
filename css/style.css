@@ -164,3 +164,54 @@ body {
     margin-right: 90px;
     border-radius: 8px;
 }
+
+.features-sections {
+    text-align: center;
+    padding-top: 70px;
+    background-color: #fff;
+    color: #0B4F9C;
+
+}
+
+.feature-container {
+    margin: 100px 0px 100px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.feature-container div {
+    width: 430px;
+    height: 600px;
+    background-color: #F4F6F8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: justify;
+    padding: 30px 40px 40px;
+}
+
+.services img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid #0B4F9C;
+}
+
+.product-catalog img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid #0B4F9C;
+
+}
+
+.repair-request img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid #0B4F9C;
+
+}
