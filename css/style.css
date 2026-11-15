@@ -8,7 +8,6 @@ body {
     font-family: 'Open Sans', Arial, sans-serif;
     background-color: #F4F6F8;
     color: #1B2236;
-    height: 100000px;
 }
 
 .site-header {
@@ -167,14 +166,14 @@ body {
 
 .features-sections {
     text-align: center;
-    padding-top: 70px;
+    padding: 70px 0px 100px 0px;
     background-color: #fff;
     color: #0B4F9C;
 
 }
 
 .feature-container {
-    margin: 100px 0px 100px 0px;
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -190,7 +189,7 @@ body {
     align-items: center;
     gap: 40px;
     text-align: justify;
-    padding: 30px 40px 40px;
+    padding: 30px 40px 0px 40px;
 }
 
 .services img {
@@ -214,4 +213,25 @@ body {
     border-radius: 10px;
     border: 3px solid #0B4F9C;
 
+}
+
+.site-footer {
+    background-color: #1B2236;
+    color: #ffffff;
+}
+
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 70px 0px 70px 70px;
+}
+
+.footer-container h3~p {
+    color: #F4F6F8;
+}
+
+.copyright {
+    text-align: center;
 }
