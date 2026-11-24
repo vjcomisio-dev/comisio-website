@@ -201,6 +201,7 @@ body {
     height: 200px;
     border-radius: 10px;
     border: 3px solid #0B4F9C;
+
 }
 
 
@@ -231,4 +232,27 @@ h2,
 h3 {
     font-family: 'Poppins', Arial, sans-serif;
 
+}
+
+
+[id] {
+    scroll-margin-top: 150px;
+}
+
+.feature-container div {
+    border: 5px solid transparent;
+    transition: border-color 1.5s ease;
+}
+
+.feature-container>div:target {
+    border-color: #1B2236;
+}
+
+.feature-container {
+    border: 2px solid transparent;
+    transition: border-color 1.3s ease;
+}
+
+.feature-container:target {
+    border-color: #F28C28;
 }
